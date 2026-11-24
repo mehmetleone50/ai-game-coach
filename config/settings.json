@@ -1,0 +1,23 @@
+{
+  "module": "ai-game-coach",
+  "version": "0.1.0",
+  "runtime": {
+    "threads": 4,
+    "verbose": false,
+    "hot_reload": true
+  },
+  "modules": {
+    "replay": {
+      "enabled": true
+    },
+    "analyze": {
+      "enabled": true
+    },
+    "coach": {
+      "enabled": true
+    },
+    "cli": {
+      "enabled": true
+    }
+  }
+}
